@@ -1,0 +1,31 @@
+.GraphContainer {
+  background-color: #f7f8fc;
+  padding: 20px;
+  width: 100%;
+}
+
+.GraphContainerActive {
+  background-color: #f7f8fc;
+  padding: 20px;
+  padding-left: 280px;
+  width: 90%;
+}
+
+.menuBar:hover{
+  cursor:pointer;
+}
+
+.OverviewContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+.ticketsContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.sidebar {
+  height: 100%;
+}

@@ -1,0 +1,21 @@
+.tickets {
+  padding: 20px;
+  width: 100%;
+}
+
+.ticketsActive {
+  padding: 20px;
+  padding-left: 280px;
+  width: 90%;
+}
+
+.ticketsContainer {
+  display: flex;
+  width: 100%;
+  background-color: #f7f8fc;
+  flex-direction: row;
+}
+
+.menuBar:hover{
+  cursor:pointer;
+}

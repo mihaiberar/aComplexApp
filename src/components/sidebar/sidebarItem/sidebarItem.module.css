@@ -1,0 +1,45 @@
+.sidebarItem{
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.sidebarItem:hover{
+    background-color: #555663;
+    cursor: pointer;
+}
+
+.activeItem{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background-color: #484953;
+    color: #DDE2FF;
+}
+
+.category{
+    color: #A4A6B3;
+    font-size: 16px;
+    font-family: Mulish-Regular;
+    font-weight: normal;
+    line-height: 20px;letter-spacing: 0.2px;
+}
+
+.activeCategory{
+    color: #DDE2FF;
+    font-size: 16px;
+    font-family: Mulish-Regular;
+    font-weight: normal;
+    line-height: 20px;letter-spacing: 0.2px;
+}
+
+.category:hover{
+    color: #DDE2FF;
+}
+
+.icon{
+    padding-left: 30px;
+    padding-right: 20px;
+    width: 16px;
+    height: 15.06px;
+}

@@ -1,0 +1,35 @@
+.button {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: bold;
+  width: 50px;
+  border-radius: 100px;
+  border: none;
+  padding: 7px;
+}
+.button:hover{
+  cursor: pointer;
+}
+.highButton {
+  background-color: #f12b2c;
+}
+.lowButton {
+  background-color: #fec400;
+}
+.normalButton {
+  background-color: #29cc97;
+}
+.urgentButton {
+  border-radius: 5px;
+  background-color: #fec400;
+}
+.newButton {
+  border-radius: 5px;
+  background-color: #29cc97;
+}
+
+.defaultButton {
+  color: #9fa2b4;
+  border-radius: 5px;
+  background-color: #f0f1f7;
+}

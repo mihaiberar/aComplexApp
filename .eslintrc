@@ -1,0 +1,30 @@
+{
+    "plugins": ["prettier", "import"],
+    "rules": {
+        "prettier/prettier": [
+            "error",
+            {
+              "endOfLine": "auto"
+            },
+          ],
+        "no-console": "error",
+        "array-bracket-spacing": "error",
+        "no-unused-vars": ["error", { 
+            "vars": "all",
+            "args": "after-used",
+            "argsIgnorePattern": "^_",
+            "varsIgnorePattern": "^_"
+        }],
+        "prefer-const": 1,
+        "camelcase": [ 1 ],
+        "object-curly-spacing": [ 2, "always" ],
+        "eol-last": ["error", "always"],
+        "prefer-arrow-callback": ["error", { "allowNamedFunctions": true }],
+        "import/no-unresolved": "error",
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "react/no-deprecated": "error",
+        "react/jsx-key": "error"
+
+    },
+    "extends": "react-app"
+}

@@ -1,0 +1,45 @@
+.ticketsContainer {
+  background: #ffffff;
+  border: 1px solid #dfe0eb;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 45%;
+}
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.viewDetails {
+  color: #3751ff;
+  font-size: 14px;
+  padding-right: 20px;
+}
+.title {
+  font-size: 19px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.group {
+  color: #9fa2b4;
+  padding-left: 20px;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  border-bottom: 1px solid #dfe0eb;
+  padding: 40px;
+  height: 50px;
+}
+
+.listBottom {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 40px;
+  height: 50px;
+}

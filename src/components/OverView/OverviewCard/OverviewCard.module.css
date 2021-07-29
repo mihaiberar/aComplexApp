@@ -1,0 +1,69 @@
+.OverviewCardContainer {
+  width: 20%;
+  height: 25%;
+  background: #ffffff;
+  border: 1px solid #dfe0eb;
+  border-radius: 8px;
+}
+.clickedCardContainer {
+  width: 20%;
+  height: 25%;
+  background: #ffffff;
+  border: 1px solid blue;
+  color: blue;
+  border-radius: 8px;
+}
+
+.clickedCardContainer .fieldText {
+  font-size: 19px;
+  color: blue;
+  font-weight: bold;
+  line-height: 24px;
+
+  text-align: center;
+  letter-spacing: 0.4px;
+}
+
+.clickedCardContainer .valueText {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: blue;
+  margin-top: auto;
+}
+
+.dataColumn {
+  width: auto;
+  height: auto;
+  background: #ffffff;
+  border-bottom: 1px solid #dfe0eb;
+  margin: 0;
+}
+.dataColumnBottom {
+  width: auto;
+  height: auto;
+  background: #ffffff;
+  margin: 0;
+}
+
+.valueText {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #252733;
+  margin-top: auto;
+}
+
+.fieldText {
+  font-size: 19px;
+  color: #9fa2b4;
+  font-weight: bold;
+  line-height: 24px;
+
+  text-align: center;
+  letter-spacing: 0.4px;
+}

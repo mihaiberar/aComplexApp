@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 15px;
+  margin-bottom: 60px;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.headerItems {
+  display: flex;
+}
+
+.headerFuncsElement {
+  padding-left: 30px;
+}
+
+.search,
+.bell,
+.divider {
+  padding-right: 30px;
+  margin-top: 30px;
+}
+
+.search:hover,
+.bell:hover {
+  cursor: pointer;
+}
+
+.personName p {
+  margin-top: 30px;
+  padding-right: 10px;
+}
+
+.headerPhoto img {
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 15px;
+}

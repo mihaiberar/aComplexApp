@@ -1,0 +1,117 @@
+@import '../ui/assets/Typography/Typography.css';
+@import '../ui/assets/Colors/Colors.css';
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  align-items: center;
+  width: 27%;
+  position: fixed;
+  background: white;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.xButton {
+  padding-top: 13px;
+  padding-right: 13px;
+  margin-left: 92%;
+}
+.ticketForm {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.newTicketName {
+  font-size: var(--font-size-24px);
+  font-weight: var(--font-weight-bold);
+  font-family: 'Mulish';
+  margin-bottom: 20px;
+}
+.labelInput {
+  display: flex;
+  flex-direction: column;
+  font-size: var(--font-size-12px);
+  font-family: 'Mulish';
+  font-weight: var(--font-weight-normal);
+  width: 100%;
+}
+.titleInput {
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #d2d2d2;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: var(--font-size-12px);
+  font-family: 'Mulish';
+  font-weight: var(--font-weight-normal);
+}
+.selectOption {
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #d2d2d2;
+  font-size: var(--font-size-10px);
+  color: #333333;
+  opacity: 0.6;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: 'Open Sans';
+  padding-left: 5px;
+  font-weight: var(--font-weight-normal);
+}
+.leaveAComment {
+  height: 64px;
+  border-radius: 5px;
+  border: 1px solid #d2d2d2;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  resize: none;
+  font-size: var(--font-size-12px);
+  font-family: 'Mulish';
+  font-weight: var(--font-weight-normal);
+}
+.actions {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.cancelButton {
+  height: 35px;
+  width: 48%;
+  border-radius: 5px;
+  background-color: #ebebeb;
+  font-weight: var(--font-weight-semi-bold);
+  font-size: var(--font-size-12px);
+  color: #656565;
+  border: none;
+  cursor: pointer;
+  font-family: 'Mulish';
+}
+.saveButton {
+  height: 35px;
+  width: 48%;
+  border-radius: 5px;
+  background-color: #3751ff;
+  font-weight: var(--font-weight-semi-bold);
+  font-size: var(--font-size-12px);
+  color: #ffffff;
+  border: none;
+  margin-left: 13px;
+  cursor: pointer;
+  font-family: 'Mulish';
+}

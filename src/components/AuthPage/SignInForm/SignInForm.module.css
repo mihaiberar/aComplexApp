@@ -1,0 +1,99 @@
+@import '../../ui/assets/Typography/Typography.css';
+@import '../../ui/assets/Colors/Colors.css';
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+.signInForm {
+  height: 100vh;
+  width: 50%;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  background-color: white;
+  color: black;
+}
+.signInName {
+  font-size: var(--font-size-24px);
+  font-weight: var(--font-weight-bold);
+  font-family: 'Mulish';
+}
+.labelInput {
+  display: flex;
+  flex-direction: column;
+  font-size: var(--font-size-12px);
+  font-family: 'Mulish';
+  font-weight: var(--font-weight-normal);
+}
+.usernameInput {
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #d2d2d2;
+  font-size: var(--font-size-12px);
+  font-family: 'Mulish';
+  font-weight: var(--font-weight-normal);
+}
+.passwordInput {
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: 1px solid #d2d2d2;
+  font-size: var(--font-size-12px);
+  font-family: 'Mulish';
+  font-weight: var(--font-weight-normal);
+}
+.userOptions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: var(--font-size-10px);
+  margin-bottom: 15px;
+  font-family: 'Mulish';
+  font-weight: var(--font-weight-normal);
+  justify-content: space-between;
+}
+.checkSignedIn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.checkBox {
+  margin-right: 5px;
+}
+.forgotPassword {
+  color: #3751ff;
+  opacity: 0.8;
+  font-weight: var(--font-weight-normal);
+  text-decoration: none;
+}
+.signInButton {
+  background-color: #3751ff;
+  color: white;
+  font-weight: var(--font-weight-semi-bold);
+  font-family: 'Mulish';
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.noAccount {
+  display: flex;
+  flex-direction: row;
+  font-size: var(--font-size-14px);
+  align-items: center;
+  font-family: 'Open Sans';
+  font-weight: var(--font-weight-normal);
+}
+.createAccount {
+  color: #3751ff;
+  opacity: 0.8;
+  font-weight: var(--font-weight-semi-bold);
+  margin-left: 10px;
+  text-decoration: none;
+  font-family: 'Open Sans';
+}

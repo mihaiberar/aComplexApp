@@ -1,0 +1,40 @@
+.sheetFooter {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.rowsNumber {
+  display: flex;
+  padding-right: 30px;
+}
+
+.rowsNumber .rowsPerPage {
+  padding-right: 10px;
+}
+
+.rowsNumber .svgNumbers {
+  padding-top: 15px;
+}
+
+.totalRows {
+  display: flex;
+}
+
+.totalRows p {
+  padding-right: 20px;
+}
+
+.totalRows .svgNumbers {
+  padding: 15px 10px 0 10px;
+}
+
+.totalRows .svgNumbers:hover,
+.rowsNumber .svgNumbers:hover {
+  cursor: pointer;
+}
+
+.select {
+  margin-left: 10px;
+}

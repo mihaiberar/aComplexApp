@@ -1,0 +1,45 @@
+.function {
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.function p {
+  padding-left: 10px;
+}
+
+.function svg {
+  padding-top: 1px;
+}
+
+.function:hover {
+  cursor: pointer;
+}
+
+.ticketFunctions {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
+.hideInput {
+  display: none;
+}
+
+.filterInput {
+  border-radius: 2px;
+  border: 1px solid grey;
+  outline: none;
+}
+
+.filterBtn {
+  background-color: red;
+  color: white;
+  border-radius: 2px;
+  border: 1px solid grey;
+}
+
+.filterBtn:active {
+  transform: translateX(1px);
+  background-color: rgb(241, 48, 48);
+}

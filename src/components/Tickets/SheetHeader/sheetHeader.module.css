@@ -1,0 +1,9 @@
+.sheetHeader {
+  display: flex;
+  justify-content: space-between;
+  height: 15px;
+  margin-bottom: 50px;
+  align-items: center;
+  margin-top: 25px;
+  padding: 10px 0 0 10px;
+}

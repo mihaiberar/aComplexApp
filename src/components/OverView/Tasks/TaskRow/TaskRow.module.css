@@ -1,0 +1,44 @@
+.rowContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  vertical-align: middle;
+  height: 50px;
+  padding: 40px;
+  border-bottom: 1px solid #dfe0eb;
+}
+
+.rowContainerBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  vertical-align: middle;
+  height: 50px;
+  padding: 40px;
+}
+.checkboxRound {
+  margin-right: 15px;
+  width: 1.3em;
+  height: 1.3em;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.checkboxRound:checked {
+  background-color: blue;
+  content: 'x';
+}
+.checkboxRound:checked::before {
+  position: relative;
+  color: white;
+  content: 'x';
+  font-size: 14px;
+  margin-left: 4px;
+}

@@ -1,0 +1,52 @@
+.table {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  text-align: center;
+}
+
+.tableRow {
+  display: table-row;
+}
+
+.tableCell {
+  display: table-cell;
+  padding: 0 10px 10px 10px;
+  border-bottom: 1px solid #dfe0eb;
+  font-size: medium;
+  vertical-align: middle;
+}
+
+.tableCellName{
+  padding-left: 10px;
+}
+
+.contact {
+  display: flex;
+}
+
+.firstContactPhoto {
+  margin-top: 10px;
+  width: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.contactInfo {
+  font-size: small;
+  color: grey;
+}
+
+.tableCell svg:hover {
+  cursor: grab;
+}
+
+.tableWidth {
+  display: table;
+  width: 100%;
+}
+
+.noStyle {
+  display: table-row;
+  width: 100%;
+}

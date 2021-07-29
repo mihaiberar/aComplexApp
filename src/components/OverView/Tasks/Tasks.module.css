@@ -1,0 +1,51 @@
+.tasksContainer {
+  background: #ffffff;
+  border: 1px solid #dfe0eb;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 45%;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding-left: 20px;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  height: 50px;
+  padding: 40px;
+  border-bottom: 1px solid #dfe0eb;
+}
+
+.viewAll {
+  color: #3751ff;
+  font-size: 14px;
+  padding-right: 20px;
+}
+
+.title {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.today {
+  color: #9fa2b4;
+  padding-left: 20px;
+}
+
+.inputField {
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  border: none;
+  color: #c5c7cd;
+}
+.inputField:focus {
+  border: none;
+}
